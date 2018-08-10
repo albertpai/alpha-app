@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './images/logo.svg';
 // import roomDetails from './roomDetails'
 // import map from './map.png';
+import FloorPlanImage from './images/AlphaAppFloor.png';
+// import GoogleMap from './images/ScreenShot.png';
+import GoogleMap from './GoogleMap.js';
 import './App.css';
 
 class App extends Component {
@@ -34,12 +37,12 @@ class App extends Component {
             </ul>
           </div>
           <div className="flex-item-02">
-            Google Map
+            <GoogleMap />
           </div>
         </div>
         <div className="container-03">
           <div className="flex-item-03">
-            Floorplan
+            <img src={FloorPlanImage} alt=''className="floor-plan-image"/>
           </div>
         </div>
         <div className="container-04">
