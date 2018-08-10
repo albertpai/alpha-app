@@ -2,27 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
+.logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  animation-direction: alternate;
+  height: 4rem;
 }
 
-.App-header {
-  background-color: #222;
+@keyframes App-logo-spin {
+  from { transform: rotate(-15deg); }
+  to { transform: rotate(deg); }
+}
+
+.container-01{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45rem;
+  width:auto;
+  background-image: url("images/cityView.jpg");
+  background-size: cover;
+}
+
+.header-content {
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.header-content h1 {
+  text-shadow: 2px 2px grey;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.container-02{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40rem;
+  width:auto;
+  background-color:#1A3A41;
+  color: white;
+}
+
+.flex-item-01{
+  width: 50%;
+  line-height: 150%;
+}
+
+.flex-item-02{
+  width: 50%;
+}
+
+li {
+  list-style-type: square;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.container-03{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40rem;
+  width:auto;
+  background-color:#ABABAB;
+}
+
+.flex-item-03{
+  
+}
+
+.container-04{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40rem;
+  width:auto;
+  background-color:#CDEFF8;
+}
+
+.flex-item-04{
+  
 }
