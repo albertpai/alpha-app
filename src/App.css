@@ -55,6 +55,11 @@
   line-height: 150%;
   padding: 2.5rem;
   text-align: left;
+  min-width: 35rem;
+}
+
+.flex-item-01 p {
+  font-size:1.2rem;
 }
 
 .flex-item-01 p {
