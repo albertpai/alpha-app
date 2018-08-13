@@ -72,11 +72,6 @@
   padding: 0.5rem;
 }
 
-.map{
-  height: 40rem;
-  position: relative;
-}
-
 li {
   list-style-type: square;
   text-align: left;
