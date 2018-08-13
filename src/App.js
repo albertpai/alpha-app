@@ -3,6 +3,7 @@ import logo from './images/logo.svg';
 import FloorPlanImage from './images/AlphaAppFloor.png';
 import GoogleMap from './GoogleMap.js';
 import './App.css';
+import FloorPlan from './FloorPlan/FloorPlan';
 
 class App extends Component {
   render() {
@@ -39,7 +40,7 @@ class App extends Component {
         </div>
         <div className="container-03">
           <div className="flex-item-03">
-            <img src={FloorPlanImage} alt=''className="floor-plan-image"/>
+            <FloorPlan />
           </div>
         </div>
         <div className="container-04">
