@@ -17,7 +17,7 @@ class App extends Component {
             <h2>OPEN STUDIOS</h2>
           </header>
         </div>
-          <AboutUs />
+        <AboutUs />
         <div className="container-03">
           <div className="flex-item-03">
             <FloorPlan />
