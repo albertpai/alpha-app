@@ -23,8 +23,7 @@ export default class Contact extends React.Component {
         return (
             <div className="container-contact">
                 <div className="flex-item-contact">
-                    <h2>Contact Form</h2>
-                    <div ref={(element) => this.element = element} style={{ width: '100%', height: '500px' }} />    
+
                 </div>
             </div>
         );
